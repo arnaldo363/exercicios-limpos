@@ -38,7 +38,7 @@ input:focus {
 	outline:none;
 }
 
-input[type=submit] {
+input[type=submit] ,[type=reset]{
 	width:100px;
 	color:#FFF;
 	background:linear-gradient(top, #F33, #933 );
@@ -46,5 +46,10 @@ input[type=submit] {
 	background:-moz-linear-gradient(top, #F33, #933 );
 	border:1px solid #333;
 	cursor:pointer;
+}
+input[type=message]{
+	width: 300px;
+	height: 60px;
+
 }
 
