@@ -29,20 +29,21 @@ h2 {
 input {
 	display:block;
 	margin-bottom:20px;
-	border:1px solid #999;
+	border:1px solid rgb(30, 10, 10);
 	padding:8px;
 	border-radius:3px;
 }
 
 input:focus {
-	border:1px solid #ccc;
+	border:1px solid rgb(82, 8, 8);
 	outline:none;
 }
 
 input[type=submit] {
 	width:100px;
-	color:#FFF;
-	background:linear-gradient(top, #F33, #933 );
+	color: white;
+	background:linear-gradient(top, rgb(128, 11, 11), #933 );
+	background:-webkit-linear-gradient(top, #F33, #933 );
 	border:1px solid #333;
 	cursor:pointer;
 }
